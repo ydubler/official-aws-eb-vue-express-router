@@ -3,10 +3,31 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <br />
+      screen width: {{ screenWidth }}
+      <br />
+      screen height: {{ screenHeight }}
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: "app",
+      screenHeight: window.screen.height,
+      screenWidth: window.screen.width,
+    };
+  },
+  components: {},
+  methods: {},
+  mounted: function () {
+    console.log("App.vue -> screenHeight = " + this.screenHeight);
+  },
+};
+</script>
 
 <style>
 #app {
