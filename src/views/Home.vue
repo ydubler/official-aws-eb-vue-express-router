@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="public/images/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Intro />
+    <Dijkstra msg="Dijkstra's Algorithm" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "../components/HelloWorld.vue";
+import Dijkstra from "../components/Dijkstra.vue";
+import Intro from "../components/Intro.vue";
 
 export default {
-  name: "Home",
+  name: "home",
+  data() {
+    return {
+      name: "home",
+      screenHeight: window.screen.height,
+      screenWidth: window.screen.width,
+    };
+  },
   components: {
-    HelloWorld,
+    Intro,
+    Dijkstra,
   },
 };
 </script>
