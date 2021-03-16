@@ -2,6 +2,8 @@
   <div id="dijkstra" class="main">
     width: {{ screenWidth }}<br />
     height: {{ screenHeight }}<br />
+    <div v-if="$isMobile()">MOBILE</div>
+    <div v-else>DESKTOP OR TABLET</div>
     <h1>{{ msg }}</h1>
     <div
       class="dijkstra-svg"
