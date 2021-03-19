@@ -32,6 +32,7 @@ export default {
 <style scoped>
 h2 {
   margin-bottom: 0px;
+  font-weight: 200;
 }
 u {
   text-decoration-color: lightgray;
@@ -39,9 +40,7 @@ u {
 .front-end {
   vertical-align: top;
   display: inline-block;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px;
   width: 300px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
