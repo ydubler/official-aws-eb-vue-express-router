@@ -4,6 +4,7 @@
     <Intro />
     <FrontEnd />
     <BackEnd />
+    <Databases />
     <Cloud />
     <br />
     <div class="horizontal-break-placeholder"></div>
@@ -16,6 +17,7 @@
 import Intro from "../components/Intro.vue";
 import FrontEnd from "../components/FrontEnd.vue";
 import BackEnd from "../components/BackEnd.vue";
+import Databases from "../components/Databases.vue";
 import Cloud from "../components/Cloud.vue";
 import Dijkstra from "../components/Dijkstra.vue";
 import BrowserInfo from "../components/BrowserInfo.vue";
@@ -34,6 +36,7 @@ export default {
     Intro,
     FrontEnd,
     BackEnd,
+    Databases,
     Cloud,
     Dijkstra,
   },

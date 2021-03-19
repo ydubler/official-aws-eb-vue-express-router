@@ -1,22 +1,16 @@
 <template>
-  <div id="front-end" class="front-end">
-    <h2><u>FRONT END</u></h2>
-    <div class="front-end-item">
-      <div class="front-end-item-text">React</div>
-      <div class="front-end-item-image">
-        <img src="public/images/react-logo.png" />
+  <div id="databases" class="databases">
+    <h2><u>DATABASES</u></h2>
+    <div class="databases-item">
+      <div class="databases-item-text">PostgreSQL</div>
+      <div class="databases-item-image">
+        <img src="public/images/node-logo.png" />
       </div>
     </div>
-    <div class="front-end-item">
-      <div class="front-end-item-text">React-Native</div>
-      <div class="front-end-item-image">
-        <img src="public/images/react-logo.png" />
-      </div>
-    </div>
-    <div class="front-end-item">
-      <div class="front-end-item-text">Vue.js</div>
-      <div class="front-end-item-image">
-        <img src="public/images/vue-logo.png" />
+    <div class="databases-item">
+      <div class="databases-item-text">MySQL</div>
+      <div class="databases-item-image">
+        <img src="public/images/php-logo.png" />
       </div>
     </div>
   </div>
@@ -24,7 +18,7 @@
 
 <script>
 export default {
-  name: "front-end",
+  name: "databases",
 };
 </script>
 
@@ -36,7 +30,7 @@ h2 {
 u {
   text-decoration-color: lightgray;
 }
-.front-end {
+.databases {
   vertical-align: top;
   display: inline-block;
   margin-bottom: 20px;
@@ -47,7 +41,7 @@ u {
   font-size: 16px;
   letter-spacing: 4px;
 }
-.front-end-item {
+.databases-item {
   text-align: center;
   display: block;
   width: 100%;
@@ -58,17 +52,17 @@ u {
   font-family: "Poppins", sans-serif;
   letter-spacing: 0px;
 }
-.front-end-item:hover {
+.databases-item:hover {
   background-color: rgba(99, 99, 99, 0.068);
   border: solid 1px black;
   border-radius: 10px;
 }
-.front-end-item-text {
+.databases-item-text {
   display: inline-block;
   text-align: left;
   padding: 10px;
 }
-.front-end-item-image {
+.databases-item-image {
   display: inline-block;
   padding: 10px;
   vertical-align: middle;
