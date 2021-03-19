@@ -6,9 +6,7 @@
     <BackEnd />
     <Databases />
     <Cloud />
-    <br />
-    <div class="horizontal-break-placeholder"></div>
-    <Dijkstra msg="Dijkstra's Algorithm" />
+    <!-- <Dijkstra msg="Dijkstra's Algorithm" /> -->
   </div>
 </template>
 
@@ -45,11 +43,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.horizontal-break-placeholder {
-  display: block;
-  width: 100%;
-  height: 60px;
-  padding: 20px;
-  background-color: rgba(0, 247, 255, 0.267);
-}
 </style>

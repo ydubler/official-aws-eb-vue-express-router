@@ -34,6 +34,7 @@ u {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 4px;
+  color: rgb(83, 83, 83);
 }
 .cloud-item {
   text-align: center;
