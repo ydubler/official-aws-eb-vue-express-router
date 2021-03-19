@@ -1,15 +1,20 @@
 <template>
   <div id="dijkstra" class="main">
-    width: {{ screenWidth }}<br />
-    height: {{ screenHeight }}<br />
-    <div v-if="$isMobile()">MOBILE</div>
-    <div v-else>DESKTOP OR TABLET</div>
     <h1>{{ msg }}</h1>
     <div
       class="dijkstra-svg"
       v-bind:style="{ width: screenWidthPx, height: screenHeightPx }"
     >
       Hellos
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
   </div>
 </template>
@@ -20,10 +25,6 @@ export default {
   data() {
     return {
       name: "home",
-      screenHeight: window.screen.height,
-      screenWidth: window.screen.width,
-      screenHeightPx: window.screen.height + "px",
-      screenWidthPx: window.screen.width + "px",
     };
   },
   props: {
@@ -52,9 +53,9 @@ a {
   color: #42b983;
 }
 .main {
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 .dijkstra-svg {
-  background-color: lime;
+  /* background-color: lime; */
 }
 </style>

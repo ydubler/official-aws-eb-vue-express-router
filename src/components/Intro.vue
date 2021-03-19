@@ -1,5 +1,5 @@
 <template>
-  <div id="intro" class="main">
+  <div id="intro" class="intro">
     <h3>
       Hi there! My name is Yuri Dubler and I'm a full stack web developer.
     </h3>
@@ -14,14 +14,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.main {
-  display: inline-block;
-  margin: 20px;
-  max-width: 1024px;
+.intro {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+h3 {
   text-align: center;
   margin: 20px;
 }
-h3 {
-  text-align: left;
+.special-text {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
 }
 </style>
