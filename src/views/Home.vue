@@ -1,22 +1,29 @@
 <template>
   <div class="home">
     <BrowserInfo />
-    <Intro />
+    <!-- <Intro text="Full-stack web developer." /> -->
+    <FullStackWebDeveloper />
     <FrontEnd />
     <BackEnd />
     <Databases />
     <Cloud />
+    <SoftwareEngineer />
+    <Education />
+    <Dijkstra />
     <!-- <Dijkstra msg="Dijkstra's Algorithm" /> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import FullStackWebDeveloper from "../components/FullStackWebDeveloper.vue";
 import Intro from "../components/Intro.vue";
 import FrontEnd from "../components/FrontEnd.vue";
 import BackEnd from "../components/BackEnd.vue";
 import Databases from "../components/Databases.vue";
 import Cloud from "../components/Cloud.vue";
+import SoftwareEngineer from "../components/SoftwareEngineer.vue";
+import Education from "../components/Education.vue";
 import Dijkstra from "../components/Dijkstra.vue";
 import BrowserInfo from "../components/BrowserInfo.vue";
 
@@ -31,11 +38,13 @@ export default {
   },
   components: {
     BrowserInfo,
-    Intro,
+    FullStackWebDeveloper,
     FrontEnd,
     BackEnd,
     Databases,
     Cloud,
+    SoftwareEngineer,
+    Education,
     Dijkstra,
   },
 };

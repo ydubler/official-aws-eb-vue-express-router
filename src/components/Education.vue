@@ -1,10 +1,10 @@
 <template>
-  <div id="cloud" class="cloud">
-    <h2>CLOUD</h2>
-    <div class="cloud-item">
-      <div class="cloud-item-text">AWS Elastic Beanstalk</div>
-      <div class="cloud-item-image">
-        <img src="public/images/aws-logo.png" />
+  <div id="education" class="education">
+    <h2>UNIVERSITY OF MONTANA</h2>
+    <div class="education-item">
+      <div class="education-item-text">Bachelor of Computer Science</div>
+      <div class="education-item-image">
+        <img src="public/images/bachelor-cap.png" />
       </div>
     </div>
   </div>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "cloud",
+  name: "education",
 };
 </script>
 
@@ -25,7 +25,7 @@ h2 {
 u {
   text-decoration-color: lightgray;
 }
-.cloud {
+.education {
   vertical-align: top;
   display: inline-block;
   margin: 10px;
@@ -33,9 +33,8 @@ u {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 4px;
-  color: rgb(83, 83, 83);
 }
-.cloud-item {
+.education-item {
   text-align: center;
   display: block;
   width: 100%;
@@ -46,12 +45,12 @@ u {
   font-family: "Poppins", sans-serif;
   letter-spacing: 0px;
 }
-.cloud-item-text {
+.education-item-text {
   display: inline-block;
   text-align: left;
   padding: 10px;
 }
-.cloud-item-image {
+.education-item-image {
   display: inline-block;
   padding: 10px;
   vertical-align: middle;

@@ -1,6 +1,6 @@
 <template>
   <div id="back-end" class="back-end">
-    <h2><u>BACK END</u></h2>
+    <h2>BACK END</h2>
     <div class="back-end-item">
       <div class="back-end-item-text">Node.js & Express</div>
       <div class="back-end-item-image">
@@ -46,16 +46,11 @@ u {
   display: block;
   width: 100%;
   margin-bottom: 5px;
-  background-color: rgba(0, 204, 255, 0.068);
-  border: solid 1px white;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0px;
-}
-.back-end-item:hover {
   background-color: white;
   border: solid 1px rgba(0, 0, 0, 0.253);
   border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
 }
 .back-end-item-text {
   display: inline-block;

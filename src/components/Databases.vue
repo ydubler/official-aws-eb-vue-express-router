@@ -1,6 +1,6 @@
 <template>
   <div id="databases" class="databases">
-    <h2><u>DATABASES</u></h2>
+    <h2>DATABASES</h2>
     <div class="databases-item">
       <div class="databases-item-text">PostgreSQL</div>
       <div class="databases-item-image">
@@ -45,16 +45,11 @@ u {
   display: block;
   width: 100%;
   margin-bottom: 5px;
-  background-color: rgba(0, 204, 255, 0.068);
-  border: solid 1px white;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0px;
-}
-.databases-item:hover {
   background-color: white;
   border: solid 1px rgba(0, 0, 0, 0.253);
   border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
 }
 .databases-item-text {
   display: inline-block;

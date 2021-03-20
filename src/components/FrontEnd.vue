@@ -1,6 +1,6 @@
 <template>
   <div id="front-end" class="front-end">
-    <h2><u>FRONT END</u></h2>
+    <h2>FRONT END</h2>
     <div class="front-end-item">
       <div class="front-end-item-text">React</div>
       <div class="front-end-item-image">
@@ -51,16 +51,12 @@ u {
   display: block;
   width: 100%;
   margin-bottom: 5px;
-  background-color: rgba(0, 204, 255, 0.068);
-  border: solid 1px white;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0px;
-}
-.front-end-item:hover {
   background-color: white;
   border: solid 1px rgba(0, 0, 0, 0.253);
   border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  background-color: white;
 }
 .front-end-item-text {
   display: inline-block;

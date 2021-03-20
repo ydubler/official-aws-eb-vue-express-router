@@ -6,15 +6,6 @@
       v-bind:style="{ width: screenWidthPx, height: screenHeightPx }"
     >
       Hellos
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
   </div>
 </template>
