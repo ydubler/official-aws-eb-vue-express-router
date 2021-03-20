@@ -4,13 +4,13 @@
     <div class="databases-item">
       <div class="databases-item-text">PostgreSQL</div>
       <div class="databases-item-image">
-        <img src="public/images/node-logo.png" />
+        <img src="public/images/psql-logo.png" />
       </div>
     </div>
     <div class="databases-item">
       <div class="databases-item-text">MySQL</div>
       <div class="databases-item-image">
-        <img src="public/images/php-logo.png" />
+        <img src="public/images/mysql-logo.png" />
       </div>
     </div>
   </div>
@@ -52,8 +52,8 @@ u {
   letter-spacing: 0px;
 }
 .databases-item:hover {
-  background-color: rgba(99, 99, 99, 0.068);
-  border: solid 1px black;
+  background-color: white;
+  border: solid 1px rgba(0, 0, 0, 0.253);
   border-radius: 10px;
 }
 .databases-item-text {

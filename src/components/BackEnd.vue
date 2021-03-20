@@ -53,8 +53,8 @@ u {
   letter-spacing: 0px;
 }
 .back-end-item:hover {
-  background-color: rgba(99, 99, 99, 0.068);
-  border: solid 1px black;
+  background-color: white;
+  border: solid 1px rgba(0, 0, 0, 0.253);
   border-radius: 10px;
 }
 .back-end-item-text {
