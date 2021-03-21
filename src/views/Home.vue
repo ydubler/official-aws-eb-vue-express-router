@@ -9,6 +9,8 @@
     <Cloud />
     <SoftwareEngineer />
     <Education />
+    <br />
+    <Languages />
     <Dijkstra />
     <!-- <Dijkstra msg="Dijkstra's Algorithm" /> -->
   </div>
@@ -24,6 +26,7 @@ import Databases from "../components/Databases.vue";
 import Cloud from "../components/Cloud.vue";
 import SoftwareEngineer from "../components/SoftwareEngineer.vue";
 import Education from "../components/Education.vue";
+import Languages from "../components/Languages.vue";
 import Dijkstra from "../components/Dijkstra.vue";
 import BrowserInfo from "../components/BrowserInfo.vue";
 
@@ -45,6 +48,7 @@ export default {
     Cloud,
     SoftwareEngineer,
     Education,
+    Languages,
     Dijkstra,
   },
 };

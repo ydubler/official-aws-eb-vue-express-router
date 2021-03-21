@@ -5,7 +5,7 @@
     <h4>
       As a Bachelor of Computer Science I have a strong foundation in important
       algorithms and their most efficient data-structure-specific
-      implementations
+      implementations.
     </h4>
     <br />
     <!-- <img src="public/images/design-graphic.png" />

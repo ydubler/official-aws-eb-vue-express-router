@@ -2,7 +2,9 @@
   <div id="education" class="education">
     <h2>UNIVERSITY OF MONTANA</h2>
     <div class="education-item">
-      <div class="education-item-text">Bachelor of Computer Science</div>
+      <div class="education-item-text">
+        <b>Bachelor of Computer Science</b><br /><br /><i>Summer 2020</i>
+      </div>
       <div class="education-item-image">
         <img src="public/images/bachelor-cap.png" />
       </div>
@@ -47,7 +49,7 @@ u {
 }
 .education-item-text {
   display: inline-block;
-  text-align: left;
+  text-align: center;
   padding: 10px;
 }
 .education-item-image {

@@ -4,7 +4,7 @@
     <br />
     <h4>
       As a full-stack web developer I have experience in every stage of the
-      product development lifecycle development to deployment, front to back.
+      product lifecycle from development to deployment, front to back.
     </h4>
     <br />
     <!-- <img src="public/images/design-graphic.png" />
