@@ -3,9 +3,12 @@
     <h2>Software engineer.</h2>
     <br />
     <h4>
-      As a Bachelor of Computer Science I have a strong foundation in important
-      algorithms and their most efficient data-structure-specific
-      implementations.
+      <!-- As a Bachelor of Computer Science I have a strong understanding of
+      important algorithms and their most efficient, data-structure-specific
+      implementations. -->
+      As a software engineer I can leverage my strong understanding of
+      programming languages, algorithms and data-structures to efficiently solve
+      problems.
     </h4>
     <br />
     <!-- <img src="public/images/design-graphic.png" />

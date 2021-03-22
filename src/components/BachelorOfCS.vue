@@ -1,12 +1,11 @@
 <template>
-  <div id="full-stack-web-developer" class="full-stack-web-developer">
-    <h2>Full-stack web developer.</h2>
+  <div id="bachelor-of-cs" class="bachelor-of-cs">
+    <h2>Bachelor of Computer Science.</h2>
     <br />
     <h4>
-      As a full-stack web developer I have experience in every stage of the
-      product lifecycle from development to deployment, front to back. I craft
-      and securely connect beautiful and smooth front-ends to their efficient
-      back-end counterparts including databases for data persistence.
+      As a Bachelor of Computer Science I have been exposed to the foundations
+      of computing including computer architecture, data structures, algorithms,
+      algorithmic complexity, parallel computing, and more.
     </h4>
     <br />
     <!-- <img src="public/images/design-graphic.png" />
@@ -16,14 +15,14 @@
 
 <script>
 export default {
-  name: "full-stack-web-developer",
+  name: "bachelor-of-cs",
   data() {
     return {
       name: "intro",
     };
   },
   mounted: function () {
-    console.log("intro mounted");
+    console.log("bachelor-of-cs mounted");
   },
 };
 </script>
@@ -55,7 +54,7 @@ img {
   padding-left: 20px;
   padding-right: 20px;
 }
-.full-stack-web-developer {
+.bachelor-of-cs {
   display: block;
   width: 100%;
   height: auto;

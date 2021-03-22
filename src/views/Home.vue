@@ -1,16 +1,22 @@
 <template>
   <div class="home">
     <BrowserInfo />
+    <br />
+    Yuri Dubler
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ydubler@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Missoula,
+    MT
     <!-- <Intro text="Full-stack web developer." /> -->
+    <BachelorOfCS />
+    <Education />
     <FullStackWebDeveloper />
     <FrontEnd />
     <BackEnd />
     <Databases />
     <Cloud />
     <SoftwareEngineer />
-    <Education />
-    <br />
     <Languages />
+    <DataStructures />
+    <Algorithms />
     <Dijkstra />
     <!-- <Dijkstra msg="Dijkstra's Algorithm" /> -->
   </div>
@@ -25,8 +31,11 @@ import BackEnd from "../components/BackEnd.vue";
 import Databases from "../components/Databases.vue";
 import Cloud from "../components/Cloud.vue";
 import SoftwareEngineer from "../components/SoftwareEngineer.vue";
-import Education from "../components/Education.vue";
 import Languages from "../components/Languages.vue";
+import DataStructures from "../components/DataStructures.vue";
+import Algorithms from "../components/Algorithms.vue";
+import BachelorOfCS from "../components/BachelorOfCS.vue";
+import Education from "../components/Education.vue";
 import Dijkstra from "../components/Dijkstra.vue";
 import BrowserInfo from "../components/BrowserInfo.vue";
 
@@ -49,6 +58,9 @@ export default {
     SoftwareEngineer,
     Education,
     Languages,
+    DataStructures,
+    Algorithms,
+    BachelorOfCS,
     Dijkstra,
   },
 };

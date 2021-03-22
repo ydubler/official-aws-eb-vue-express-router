@@ -3,10 +3,18 @@
     <h2>UNIVERSITY OF MONTANA</h2>
     <div class="education-item">
       <div class="education-item-text">
-        <b>Bachelor of Computer Science</b><br /><br /><i>Summer 2020</i>
+        <b>Bachelor of Computer Science</b><br />
+        <div class="education-item-image">
+          <img src="public/images/bachelor-cap.png" />
+        </div>
+        <br /><i>Summer 2020</i>
+      </div>
+      <br />
+      <div class="education-item-image">
+        <img src="public/images/mt-grizzly-logo.png" />
       </div>
       <div class="education-item-image">
-        <img src="public/images/bachelor-cap.png" />
+        <img src="public/images/grizpaw-logo.png" />
       </div>
     </div>
   </div>
@@ -31,7 +39,9 @@ u {
   vertical-align: top;
   display: inline-block;
   margin: 10px;
-  width: 300px;
+  min-width: 300px;
+  width: 80%;
+  max-width: 1024px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 4px;
@@ -42,7 +52,7 @@ u {
   width: 100%;
   margin-bottom: 5px;
   background-color: white;
-  border: solid 1px rgba(0, 0, 0, 0.253);
+  border: solid 2px rgba(0, 0, 0, 0.253);
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0px;
