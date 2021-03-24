@@ -52,10 +52,10 @@ u {
   width: 100%;
   margin-bottom: 5px;
   background-color: white;
-  border: solid 1px rgba(0, 0, 0, 0.253);
+  border: solid 2px rgba(0, 0, 0, 0.253);
+  border-radius: 6px;
   border-top: none;
   border-bottom: none;
-  border-radius: 10px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0px;
   background-color: white;

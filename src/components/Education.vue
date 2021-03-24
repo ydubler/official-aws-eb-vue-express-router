@@ -51,9 +51,9 @@ u {
   display: block;
   width: 100%;
   margin-bottom: 5px;
-  background-color: white;
+  background-color: rgb(240, 240, 240);
   border: solid 2px rgba(0, 0, 0, 0.253);
-  border-radius: 10px;
+  border-radius: 12px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0px;
 }
